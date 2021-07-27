@@ -76,7 +76,7 @@
 }
 
 .github:hover {
-  background-color: black;
+  background-color: rgb(163, 27, 27);
 }
 
 /* Buttons - Read Me, Contact Us */
@@ -602,7 +602,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #16d5f7;
     height: 56px;
     line-height: 56px;
   }
