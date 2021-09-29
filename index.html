@@ -1,46 +1,842 @@
 <!-- <!DOCTYPE html> -->
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+    <!-- Materialize - Compiled and minified CSS-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+    <!-- <link rel="stylesheet" href="/assets/css/materialize.min.css" />--> <!-- doesn't load icons in sidebar-->
+    <!-- Font Awesome Icon - CSS-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Collin Smith | Software Engineer</title>
+  
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Collin Smith | Software Developer" />
+    <meta property="og:description" content="Software Developer" />
+    <meta property="og:url" content="https://collinxsmith1.github.io/" />
+    <meta property="og:site_name" content="Collin Smith | Software Developer" />
+    <meta property="article:publisher" content="https://collinxsmith1.github.io/" />
+    <meta property="og:image" content="https://collinxsmith1.github.io/examples/collin-page-screenshot.png" />
+    
+    <!-- Twitter -->
+    <!--
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="Programmer | Tinkerer | Explorer" />
+    <meta name="twitter:description" content="Software Engineer" />
+    <meta name="twitter:url" content="https://twitter.com/" />
+    <meta name="author" content="Collin Smith" />
+    <meta name="description" content="Software Engineer with a passion for the web." />
+    -->
+  
+    <!-- Apple product icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  
+    <!-- Android product icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  
+    <!-- Microsoft product icons -->
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+  
+    <meta name="robots" content="index, follow" />
+    <!-- Google Site Verification for indexing -->
+    <!-- <meta name="google-site-verification" content="PUT_GOOGLE_SITE_VERIF_CONT_HERE" /> -->
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  <!-- Open Graph-->
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Collin Smith | Software Developer" />
-  <meta property="og:description" content="Software Developer" />
-  <meta property="og:url" content="https://collinxsmith1.github.io/" />
-  <meta property="og:site_name" content="Collin Smith | Software Developer" />
-  <meta property="article:publisher" content="https://collinxsmith1.github.io/" />
-  <meta property="og:image" content="https://collinxsmith1.github.io/examples/Work-Under-Construction-Construction-Sign-Warning-2408062.png" />
-  <!-- Twitter -->
-
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="robots" content="index, follow" />
-  <!-- Google Site Verification for indexing -->
-  <!-- <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" /> -->
-</head>
 
 <body>
-  <h2 class="black-text">Under Construction</h2>
+
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents"> <!-- side-nav fixed table-of-contents creates the left side and top bar-->
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo grey-blue-text">
+          <img src="/assets/img/profilepic_200px_rotated5_new.jpg" class="circle img-responsive profile-pic" alt="avatar"></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect navy-text"><i 
+          class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect navy-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- ICONS: mdi-av-web, mdi-av-my-library-books -->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect navy-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- ICONS: mdi-action-assessment, mdi-social-poll, mdi-av-equalizer -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect navy-text"><i
+            class="mdi-av-equalizer small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect navy-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- ICONS: mdi-communication-contacts, mdi-content-mail, mdi-communication-email -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect navy-text"><i
+            class="mdi-communication-contacts small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- ICONS: mdi-action-description, mdi-file-folder, mdi-file-folder-open, mdi-file-attachment, mdi-file-folder-shared -->
+        <a aria-label="Open Collin's resume in a new tab" href="/assets/resume/CollinSmithResume-20210924.pdf" target="_blank"
+        class="waves-effect navy-text"><i class="mdi-file-attachment small"></i><span>Resume</span></a>  
+      </li>
+
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="navy-text">Collin Smith</a>
+      <span class="black-text">Software Engineer</span>
+    </div>
+
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark gray"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark gray"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark gray"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark gray"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark gray"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark gray"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Open Collin's Resume in a new tab"
+          href="/assets/resume/CollinSmithResume-20210924.pdf" target="_blank"
+          class="waves-effect waves-dark gray"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+          <!-- href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank" -->
+          
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay">
+        <div class="container">
+          <!-- <div class="col-md-9"> -->
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="gray-text">Collin Smith.</span></h2>
+              <h5 style="color:#ffffff"><span class="typing" style="font-weight: 300; color:#fff"></span></h5>
+              <h5>mind who enjoys solving complex and challenging real-world problems.</h5>
+              <!-- <h5 style="color:#ffffff"><span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <!-- <h5>Self-driven, detail oriented, curious mind who enjoys solving complex and challenging real-world problems.</h5> -->
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/collinxsmith/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/collinxsmith1/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+
+            <div class="button">
+              <a href="#about" class="readmore">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+
+          </div>
+        <!-- </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text gray-text">About</h3>
+      <div class="container flow-text">
+        <!-- <blockquote>
+          <h2>
+            A Software Developer with a passion for Backend Development and Artificial Intelligence.
+
+          </h2>
+        </blockquote> -->
+        <!-- <p>
+          I graduated with a Bachelor's Degree in Aerospace Engineering from Iowa State University. 
+        </p> -->
+        <p>
+          I enjoy learning about new technologies. I hope for the opportunity to show and continue developing my strengths while creating impactful solutions that solve real world challenges.
+          <!-- Detail-oriented Software Engineer with a get-it-done, on-time, and high-quality product spirit and a keen interest in Software Development and Artificial Intelligence. -->
+        </p>
+        <p>
+          Looking to further my professional career in the Aerospace Industry combining my abilities within Software and Systems Engineering.
+        </p>
+        <!-- <p>
+          Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.
+        </p> -->
+        <!-- <p>
+          Another Paragraph
+        </p>  -->
+        <!-- <p>
+        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
+          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
+          aria-label="Navigate to the Full Stack React homepage"
+          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
+          aria-label='Navigate to the article "Scalable CSS"'
+          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
+        </p> -->
+      </div>
+    </section>
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text gray-text">Experience</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://infralytiks.com" target="_blank"><img alt="InfraLytiks logo"
+                    src="/assets/img/infralytiks_170px.png" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://infralytiks.com/" target="_blank"
+                      class="gray hoverline">InfraLytiks</a></span>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="role-primary dark-gray-text">Software Engineer</div>
+              <div class="row-content">
+                <ul>
+                  <li>
+                    Programming in Python using API reference and Bash scripting for autonomous processing of raw data from UAS and aircraft.
+                  </li>
+                  <li>
+                    Scripting for scheduled retrieval of raw large scale data with REST API for autonomous backend workflow.
+                  </li>
+                  <li>
+                    Cloud architecture process design and software integration of custom Machine Learning Models.
+                  </li>
+                  <li>
+                    Implementation of AWS CICD services in commercial software development lifecycle.
+                  </li>
+                  <li>
+                    Agile work environment through collaborative team efforts managed with online scrum Trello boards.
+                  </li>
+                  <li>
+                    <b>Tools:</b> Python, Bash, AWS CLI, AWS EC2, AWS SQS, AWS S3, Trello
+                  </li>
+                </ul>
+              </div>
+
+              <div class="role-secondary dark-gray-text">Sys Admin</div>
+              <div class="row-secondary"></div>
+              <div class="row-content">
+                <ul>
+                  <li>
+                    Support Linux, Windows, and embedded systems staging environments for large scale cloud-based applications.
+                  </li>
+                  <li>
+                    Support multiple teams of developers with cloud resource access through AWS CLI and web GUI.
+                  </li>
+                  <li>
+                    Development of company standards for supporting scalability and documentation for project resource management. Design of GUI for easy access and management of clusters of AWS cloud resources. 
+                  </li>
+                  <li>
+                    Deployment of AWS Lambda functions running with cron for scheduled backups.
+                  </li>
+                  <li>
+                    <b>Tools:</b> AWS SDK for Python, SSH, Tkinter, AWS CLI, AWS IAM, AWS Lambda
+                  </li>
+                </ul>
+              </div>
+            
+            <div class="role-secondary dark-gray-text">GIS Project Engineer</div>
+            <div class="row-secondary"></div>
+            <div class="row-content">
+              <ul>
+                <li>
+                  Proficiency with open-source software, QGIS, used in geographical data analysis.
+                </li>
+                <li>
+                  Lead a $100k contract for creation of geospatial analysis data for Wind Turbine Industry.
+                </li>
+                <li>
+                  Design of ML backend for object identification and shapefile generation of geospatial vector data.
+                </li>
+                <li>
+                  <b>Tools:</b> Python, Agisoft Metashape, QGIS
+                </li>
+              </ul>
+            </div>
+
+            <div class="role-secondary dark-gray-text">UAS Operations Engineer</div>
+            <div class="row-secondary"></div>
+            <div class="row-content">
+              <ul>
+                <li>
+                  Managed Iowa State University ECpE Senior Design team in design of robotic arm for UAS.
+                </li>
+                <li>
+                  Developed and documented design process of custom power and data circuits for multiple sensors onboard UAS platforms.
+                </li>
+                <li>
+                  Prototype design for NDE inspection methodologies using multi-rotor UAS platforms.
+                </li>
+                <li>
+                  Performed commercial flights of UAS as Pilot in Command - FAA Part 107 Remote Pilot Certified.
+                </li>
+                <li>
+                  <b>Tools:</b> DJI UAS multirotor systems, soldering
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="card-action">
+            <span>June 2016 - Present | Des Moines, IA</span>
+          </div>
+        </div>
+
+
+        <!-- 2nd Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.news.iastate.edu/news/2017/03/28/heatedairportpavements/" target="_blank"><img alt="InfraLytiks logo"
+                    src="/assets/img/ISU-logo-300px.png" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.news.iastate.edu/news/2017/03/28/heatedairportpavements/" target="_blank"
+                      class="gray hoverline">Iowa State University</a></span>
+                </p>
+              </div>
+            </div>
+
+            <div class="role-primary dark-gray-text">Undergraduate Research</div>
+              <div class="row-content">
+                <ul>
+                  <li>
+                    Cost analysis of hardware for development of embedded self-heated airport runway system.
+                  </li>
+                  <li>
+                    Manufactured hundreds of thermocouples for integration with Arduino microcontrollers.
+                  </li>
+                  <li>
+                    Implemented prototype self-heated hangar conrete section installed at KDSM in Des Moines, Iowa.
+                  </li>
+                  <li>
+                    <b>Tools:</b> soldering
+                  </li>
+                </ul>
+              </div>
+
+          </div>
+          <div class="card-action">
+            <span>2017 | Ames, IA</span>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text gray-text">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <!-- 1st Project -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="json python discord logos" src="/assets/img/json-python-speech-700x393px-green.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator gray hoverline">Interactive Bot Development<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  OOP in Python for development of interactive bots in VoIP and online chat platforms
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title gray">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Python, venv, pip, discord.py, JSON</li>
+                  <li>Accessing data through API to serve content on commands</li>
+                </ul>
+
+                <!-- <div class="card-action">
+                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/music-player"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd Project -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="road condition detection app" src="/assets/img/road-defect-example-1047x562.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator gray hoverline">Road Pothole Detection App<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Mobile application crowd sourced road data analyzed to determine faults on road surfaces
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title gray">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> React Native, Python, matplotlib, CSV, KML</li>
+                  <li>Mobile application development working with device inertial sensors</li>
+                  <li>Large scale CSV data algorithmic analysis</li>
+                  <li>Converting results to KML for visualization</li>
+                </ul>
+
+                <!-- <div class="card-action">
+                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/music-player"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div> --> 
+
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd Project -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="/assets/img/network-switch.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator gray hoverline">Network Performance Monitor<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Network testing app with timeframe performance and metrics graphs displayed with web server
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title gray">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Django framework, Python, SQLite</li>
+                  <li>Working with Raspberry Pi 3</li>
+                  <li>Displaying rendered metric related performance graphs at different web endpoints</li>
+                  <li>Storing time reference data in SQLite database</li>
+                </ul>
+
+                <!-- <div class="card-action">
+                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/music-player"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>-->
+
+              </div>
+            </div>
+          </div>
+
+          <!-- 4th Project -->
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="/assets/img/mail-game-nginx-web-server-800px-red.jpg.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator gray hoverline">Secure self-hosted services<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Hosting local services with LAMP software stack and best practices with SSL/TLS
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title gray">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> HTML, Javascript, CSS, Nginx, SteamCMD, Postfix</li>
+                  <li>Installing SSL Certificates using the Nginx Certbot through Let's Encrypt</li>
+                  <li>SteamCMD using CLI to install and management game servers on headless servers</li>
+                </ul>
+
+                <!-- <div class="card-action">
+                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/music-player"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+
+
+          <!-- <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="/assets/img/project-music-player.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator gray hoverline">Music Player Web-App<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A music streaming web app based on Django
+                </p>
+              </div>
+              <div class="card-reveal"> -->
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title gray">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <!-- <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku</li>
+                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
+                  <li>Search and filter songs based on language and singer.</li>
+                  <li>Create multiple playlists and add/remove songs to/from playlist.</li>
+                  <li>Scroll through recently played/viewed songs.</li>
+                </ul>
+
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/music-player"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+          <!-- ************* -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text gray-text">Skills</h3>
+      <div class="container">
+
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="gray light">Languages and Databases</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matlab.png" class="responsive-img" />Matlab
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/sqlite-logo-t-610x610.png" class="responsive-img" />SQLite
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+        <!-- Libraries & Frameworks -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="gray light">Libraries & Frameworks</h4>
+            <div class="row text-center">
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />matplotlib
+              </div>
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
+              </div>
+              
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/discordpy-logo.png" class="responsive-img" />discord.py
+              </div>
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Other -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="gray light">Other</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="Git logo" src="/assets/img/git.png" class="responsive-img" />Git
+              </div>
+              <div class="col s4 m2">
+                <img alt="AWS logo" src="/assets/img/aws1.png" class="responsive-img" />AWS
+              </div>
+
+              <div class="col s4 m2">
+                <a href="https://www.credly.com/badges/cf84e52f-bf90-4bfc-8d7a-c9fcfcb229f6" target="_blank">
+                  <img alt="AWS logo" src="/assets/img/AWS-CloudPractitioner-2020-200x200px.png" class="responsive-img" />
+                </a>AWS Certified
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- certifications -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <h4 class="gray light">Certificates</h4>
+            <div class="row text-left">
+              <div class="container">
+                <div class="row">
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image-small">
+                        <a href="https://www.credly.com/badges/cf84e52f-bf90-4bfc-8d7a-c9fcfcb229f6" target="_blank">
+                          <img src="/assets/img/AWS-CloudPractitioner-2020-160x160px.png">
+                        </a>
+                      </div>
+                      <div class="card-content">
+                        <a href="https://www.credly.com/badges/cf84e52f-bf90-4bfc-8d7a-c9fcfcb229f6" target="_blank">
+                          <span class="card-title gray">AWS Certified Cloud Practioner</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text gray-text">Education</h3>
+      <div class="container">
+        <div class="row">
+
+          <!-- Education -->
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.iastate.edu/" target="_blank" class="gray hoverline">Iowa State University</a></span>
+                </p>
+                <p class="gray">Ames, IA, USA</p>
+                <p>
+                  <b>Degree: </b>Bachelor's Degree in Aerospace Engineering
+                  <br>
+                  <b>Minor: </b>Non-Destructive Engineering
+                  <br>
+                  <b>GPA: </b>3.14/4
+                </p>
+
+                <!-- <ul>
+                  <p>
+                    <b>Relevant Courseworks:</b>
+                  <ul>
+                    <li>Distributed Database Systems</li>
+                    <li>Cloud Computing</li>
+                    <li>Foundations of Algorithms</li>
+                  </ul>
+                  </p>
+                </ul> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text gray-text">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Email Collin" href="mailto:collinxsmith@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Collin" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Collin" href="mailto:collinxsmith@gmail.com"
+              class="hoverline">collinxsmith@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Collin on GitHub" href="http://github.com/collinxsmith1" target="_blank"
+            data-position="top" data-tooltip="View Collin on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Collin on Github" href="http://github.com/collinxsmith1" class="hoverline"
+              target="_blank">github.com/collinxsmith1</a></a>
+        </p>
+        <p>
+          <a aria-label="View Collin on LinkedIn" href="https://www.linkedin.com/in/collinxsmith/" target="_blank"
+            data-position="top" data-tooltip="View Collin on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Collin on LinkedIn" href="https://www.linkedin.com/in/collinxsmith/"
+              class="hoverline" target="_blank">linkedin.com/collinxsmith</a></a>
+        </p>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- typed.js - Compiled and minified JavaScript (locally sourced)-->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["A self-driven", "An inspired", "A curious", "A motivated", "A detail-oriented"],
+      loop: true,
+      typeSpeed: 50,
+      backSpeed: 35,
+      backDelay: 1500
+    });
+  </script>
+  
+  <!-- jQuery - Compiled and minified JavaScript, used for triple dot menu in Projects-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- <script src="/assets/vendor/jquery.js/jquery.min.js"></script> -->
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <!-- <script src="/assets/vendor/materialize.js/materialize.min.js"></script> --> <!-- also needed for triple dot menu in Projects -->
+
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
 </body>
 
 </html>
